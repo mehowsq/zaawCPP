@@ -48,9 +48,4 @@ int main()
 	const char* new3 = "abc";
 	const char* new4 = "ABC";
 	cout << add1(new3, new4) << endl;
-	//auto fun = [](auto a, auto b) {return a + b; };
-	//cout << add2(5, 8, fun) << endl;
-	//cout << add2(4.75, 8.25, ([](auto a, auto b) {return a + b; })) << endl;
-	//cout << add2(4, 8.25, ([](auto a, auto b) {return a + b; })) << endl;
-	//cout << add2(x, y, ([](auto a, auto b) {return a + b; })) << endl;
 }
