@@ -1,0 +1,5 @@
+Zadanie_11: Zadanie_11.o
+	g++ Zadanie_11.o -o Zadanie_11 
+
+Zadanie_11.o: Zadanie_11.cpp
+	g++ -std=c++17 -c -g -fopenmp -Wall -pedantic -Werror -o Zadanie_11.o Zadanie_11.cpp

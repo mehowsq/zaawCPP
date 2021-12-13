@@ -1,0 +1,5 @@
+Zadanie12: Zadanie12.o
+	g++ Zadanie12.o -o Zadanie12 
+
+Zadanie12.o: Zadanie12.cpp
+	g++ -std=c++17 -c -g -fopenmp -Wall -pedantic -Werror -o Zadanie12.o Zadanie12.cpp
